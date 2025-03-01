@@ -1,0 +1,20 @@
+version: "3.1"
+
+nlu:
+  - lookup: module
+    examples: |
+      - relógio
+      - horas
+      - data
+      - meses
+      - datas
+      - calendário
+      - dias
+      - horário
+      - previsão
+      - notícias
+      - notícia
+      - noticiário
+      - tempo
+      - clima
+      - temperatura

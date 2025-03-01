@@ -6,80 +6,62 @@ nlu:
       - quero remover o módulo [relógio](module)
       - quero desabilitar [calendário](module)
       - tire o [horário](module)
+      - tire a [hora](module)
       - não quero ver o [calendário](module)
       - não quero ver a [previsão](module)
       - esconde o [noticiário](module)
       - remova o [calendário](module)
+      - tira as [notícias](module)
+      - desabilite as [horas](module)
+      - não quero ver os [meses](module)
+      - oculte o [clima](module)
+      - não mostre a [temperatura](module)
+      - não mostre as [datas](module)
+      - oculte a [data](module)
+      - esconda os [meses](module)
+      - desative o [tempo](module)
+      - não quero ver o [clima](module)
 
-  - intent: goodbye
+  # Synonyms of relógio
+  - synonym: relógio
     examples: |
-      - cu
-      - good by
-      - cee you later
-      - good night
-      - bye
-      - goodbye
-      - have a nice day
-      - see you around
-      - bye bye
-      - see you later
+      - horário
+      - horas
+      - hora
 
-  - intent: affirm
+  # Synonyms of calendário
+  - synonym: calendário
     examples: |
-      - yes
-      - y
-      - indeed
-      - of course
-      - that sounds good
-      - correct
+      - data
+      - datas
+      - meses
+      - dias
 
-  - intent: deny
+  # Synonyms of notícia
+  - synonym: notícia
     examples: |
-      - no
-      - n
-      - never
-      - I don't think so
-      - don't like that
-      - no way
-      - not really
+      - noticiário
+      - notícias
 
-  - intent: mood_great
+  # Synonyms of previsão
+  - synonym: previsão
     examples: |
-      - perfect
-      - great
-      - amazing
-      - feeling like a king
-      - wonderful
-      - I am feeling very good
-      - I am great
-      - I am amazing
-      - I am going to save the world
-      - super stoked
-      - extremely good
-      - so so perfect
-      - so good
-      - so perfect
+      - tempo
+      - clima
+      - temperatura
 
-  - intent: mood_unhappy
+  - intent: show_module
     examples: |
-      - my day was horrible
-      - I am sad
-      - I don't feel very well
-      - I am disappointed
-      - super sad
-      - I'm so sad
-      - sad
-      - very sad
-      - unhappy
-      - not good
-      - not very good
-      - extremly sad
-      - so saad
-      - so sad
-
-  - intent: bot_challenge
-    examples: |
-      - are you a bot?
-      - are you a human?
-      - am I talking to a bot?
-      - am I talking to a human?
+      - quero ver o [clima](module)
+      - quero ver a [temperatura](module)
+      - quero ver as [datas](module)
+      - coloque os [meses](module)
+      - insira os [dias](module)
+      - mostre o [horário](module)
+      - ative as [notícias](module)
+      - coloque na tela o [noticiário](module)
+      - habilite a [previsão](module)
+      - mostra as [horas](module)
+      - me mostre o [horário](module)
+      - mostre-me o [tempo](module)
+      - mostre de volta o [relógio](module)
