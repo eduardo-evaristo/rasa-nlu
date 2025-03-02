@@ -65,3 +65,20 @@ nlu:
       - me mostre o [horário](module)
       - mostre-me o [tempo](module)
       - mostre de volta o [relógio](module)
+
+  - intent: handle_to_ai
+    examples: |
+      - qual é a maior cidade do mundo
+      - quantos é 2 vezes 10
+      - o que você acha da minha roupa hoje
+      - qual a sua opinião sobre a minha roupa
+      - o que acha do meu estilo
+      - o que
+      - em que ano o homem foi na lua
+      - onde fica os estados unidos
+      - qual é o maior rio do planeta
+      - quem é o presidente do brasil
+      - minha roupa está boa para o clima hoje
+      - me conte sobre a história do chile
+      - o que tu achas do meu cabelo?
+      - minhas roupas estão adequadas para um casamento?
