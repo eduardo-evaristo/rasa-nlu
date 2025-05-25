@@ -70,15 +70,42 @@ nlu:
     examples: |
       - qual é a maior cidade do mundo
       - quantos é 2 vezes 10
-      - o que você acha da minha roupa hoje
-      - qual a sua opinião sobre a minha roupa
-      - o que acha do meu estilo
       - o que
       - em que ano o homem foi na lua
       - onde fica os estados unidos
       - qual é o maior rio do planeta
       - quem é o presidente do brasil
-      - minha roupa está boa para o clima hoje
       - me conte sobre a história do chile
+      - o que aconteceu essa semana
+      - quais são as últimas notícias
+      - qual é o resultado do último jogo
+      - resultado da última partida
+      - qual é o carro mais barato do ano?
+      - qual é o jogo mais famoso?
+      - pesquise sobre as últimas novidades
+      - me diga as últimas informações
+      - faça uma pesquisa sobre a américa latina
+
+  - intent: handle_to_ai_with_pic
+    examples: |
+      - o que você acha da minha roupa hoje
+      - qual a sua opinião sobre a minha roupa
+      - o que acha do meu estilo
+      - minha roupa está boa para o clima hoje
       - o que tu achas do meu cabelo?
       - minhas roupas estão adequadas para um casamento?
+      - qual mão minha está levantada?
+      - qual é a cor do meu olho?
+      - o que acha do meu óculos
+      - meu cabelo está bonito?
+      - minha calça é bonita?
+      - meu cabelo está estiloso?
+      - o que você vê?
+      - o que você está vendo?
+      - minha maquiagem está bonita?
+      - estou combinando com essas roupas?
+      - minha aparência está boa?
+      - descreva minha aparência
+      - o que você acha da minha aparência?
+      - como estou vestido?
+      - o que acha do meu corpo?
